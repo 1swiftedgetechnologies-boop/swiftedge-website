@@ -1,0 +1,40 @@
+{
+  "name": "SwiftOrders — WhatsApp Order Manager",
+  "short_name": "SwiftOrders",
+  "description": "WhatsApp order management for African businesses",
+  "start_url": "/swiftorders.html",
+  "display": "standalone",
+  "background_color": "#080d1a",
+  "theme_color": "#0A2463",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/0A2463/39B54A?text=SO",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/0A2463/39B54A?text=SO",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "New Order",
+      "short_name": "New Order",
+      "description": "Log a new WhatsApp order",
+      "url": "/swiftorders.html#new-order"
+    },
+    {
+      "name": "View Orders",
+      "short_name": "Orders",
+      "description": "View all orders",
+      "url": "/swiftorders.html#orders"
+    }
+  ]
+}
